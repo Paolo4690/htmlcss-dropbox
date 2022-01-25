@@ -16,14 +16,31 @@ body {
 
 /* CLASSI RIUTILIZZABILI *//* CLASSI RIUTILIZZABILI */
 
-
-.btn-blue {
-    background-color: #0061ff;
-    padding: .2em .6em;
-    margin: 1.5em;
-    color: #fff;
+.relative {
+    position: relative;
 }
 
+.btn-blue {
+    display: inline-block;
+    background-color: #0061ff;
+    padding: 0 .6em;
+    margin-right: 1.5em;
+    color: #fff;
+    line-height: 28px;
+}
+
+.center {
+    width: 900px;
+    min-width: 900px;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+p {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+
+}
 
 /* CLASSI RIUTILIZZABILI *//* CLASSI RIUTILIZZABILI */
 
@@ -76,6 +93,7 @@ nav .logo img {
 nav ul {
     display: inline-block;
     line-height: 50px;
+    margin-right: 1.5rem;
 }
 
 nav ul li {
@@ -90,3 +108,40 @@ nav ul li {
 /* NAV  *//* NAV  *//* NAV  *//* NAV  *//* NAV  */
 
 /* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
+
+header {
+    background-color: #b4d0e7;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    
+}
+header h1 {
+    font-size: 3.5em;
+    padding-bottom: 2rem;
+}
+
+header .header-txt {
+    float: left;
+    width: 35%;
+}
+
+header .header-img {
+    position: absolute;
+    bottom: -5rem;
+    left: 40%;
+    width: 65%;
+}
+
+header img.overflow {
+    width: 100%;
+    filter: drop-shadow(5px 10px 10px #999999);   
+}
+
+p.annulla {
+    margin-top: .5em;
+}
+
+
+/* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
+
+/* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
