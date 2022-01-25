@@ -173,6 +173,12 @@ header .header-txt {
     width: 35%;
 }
 
+img.arrow {
+    width: 15px;
+    height: 25px;
+    margin-top: 1rem;
+}
+
 header .header-img {
     position: absolute;
     bottom: -7rem;
@@ -226,16 +232,19 @@ section .card-abbonamenti {
     margin: 0 1rem 1.5rem 1rem;
 
     width: calc((100% - 6rem) / 3);
+}
+
+.card-border {
     border: 1px solid #999;
 }
 
-.card-abbonamenti .title-card {
+.title-card {
     line-height: 2rem;
     text-align: center;
     border-bottom: 1px solid #999;
 }
 
-.card-abbonamenti .main-table {
+.main-table {
     padding: 1rem;
 }
 
@@ -257,6 +266,13 @@ section .card-abbonamenti {
 .main-table .txt:last-child {
     padding-bottom: 3rem;
 }
+
 .white {
     color: #fff;
+}
+
+.btn-right {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
