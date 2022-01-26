@@ -344,10 +344,6 @@ section .card-abbonamenti {
     padding-bottom: 3rem;
 }
 
-.white {
-    color: #fff;
-}
-
 .btn-right {
     position: absolute;
     top: 1rem;
@@ -365,8 +361,26 @@ section .main-40 {
     width: 40%;
 }
 
-.sain-60 img {
+.main-60 img {
     width: 100%;
+}
+
+
+.card-abbonamenti i {
+    margin-right: 5px;
+}
+.main-table span.fl-left {
+    width: 10%;
+    height: 100%;
+} 
+.main-table span.fl-right {
+    width: 90%;
+    height: 100%;
+} 
+
+i.fa-check {
+    font-weight: 900;
+    color: #0061ff;
 }
 
 /* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
@@ -492,6 +506,13 @@ footer .lenguage {
     color: #888;
     font-size: .8rem;
 }
+
+footer select option,
+footer select {
+    background-color: #000;
+    border: 0;
+    color: #d0d0d0;
+}
 /* FOOTER  *//* FOOTER  *//* FOOTER  *//* FOOTER  */
 
 
@@ -562,7 +583,7 @@ ul.submenu {
 
 .answer {
     display: none;
-    margin: 1.5rem 0;
+    margin: .5rem 0 1.5rem 0;
 }
 
 .conteiner-req:hover .answer,
