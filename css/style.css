@@ -62,11 +62,14 @@ body {
     padding-top: 4rem;
 }
 
+.card-border {
+    border: 1px solid #999;
+}
+
 .border-pic {
     width: 20%;
     border-bottom: 1px solid #999;
 }
-
 
 .btn-blue {
     background-color: #0061ff;
@@ -118,6 +121,9 @@ span a {
 span a:hover {
     color: #0061ff;
     text-decoration: none;
+}
+.under-line {
+    text-decoration: underline;
 }
 
 /* CLASSI RIUTILIZZABILI *//* CLASSI RIUTILIZZABILI */
@@ -270,10 +276,6 @@ section .card-abbonamenti {
     width: calc((100% - 6rem) / 3);
 }
 
-.card-border {
-    border: 1px solid #999;
-}
-
 .title-card {
     line-height: 2rem;
     text-align: center;
@@ -327,5 +329,40 @@ section .main-40 {
 }
 
 .sain-60 img {
+    width: 100%;
+}
+
+/* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
+
+/* SECTION OPERAZIONI  *//* SECTION OPERAZIONI  */
+
+.conteiner-operazioni {
+    margin: 0 -1rem;
+    
+}
+
+.block-operazioni {
+    float: left;
+
+    width: calc((100% - 6rem) /3);
+
+    margin: 0 1rem 2.5rem 1rem;
+}
+
+
+/* SECTION PARTNER  *//* SECTION PARTNER  */
+
+.conteiner-partner {
+    float: left;
+    width: calc(100% / 3);
+    background-color: chocolate;
+}
+
+.conteiner-partner .partner {
+    float: left;
+    width: 50%;
+    background-color: cyan;
+}
+.partner img {
     width: 100%;
 }
