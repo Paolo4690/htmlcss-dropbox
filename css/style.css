@@ -466,3 +466,32 @@ footer {
     background-color: #000;
     color: #fff;
 }
+footer ul {
+    float: left;
+    list-style: none;
+    width: calc(100% / 5);
+}
+
+footer ul li {
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+footer ul li:first-child {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: .9rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+footer .lenguage {
+    color: #888;
+    font-size: .8rem;
+}
