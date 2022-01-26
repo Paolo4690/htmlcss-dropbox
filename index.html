@@ -19,23 +19,29 @@
                     <img src="img/logo-small.png" alt="Logo Dropbox"> 
                 </a>
             </div>
-            <ul>
+            <ul class="menu">
                 <li><a href="">Perchè Dropbox?</a></li>
-                <li><a href="">Funzioni</a></li>
-                <li><a href="">Piani e prezzi</a></li>
+                <li><a href="#funzioni">Funzioni</a></li>
+                <li><a href="#abbonamenti">Piani e prezzi</a></li>
             </ul>      
         </div>
 
 
         <div class="nav-right clearfix">
             
-            <ul>
-                <li><a href="">Supporto</a></li>
-                <li><a href="">Contatta l'ufficio vendite</a></li>
+            <ul class="menu">
+                <li><a href="">Supporto</a>
+                    <ul class="submenu card-border"> <!-- Lista annidata: voci del sotto-menu -->
+                        <li class="submenu"><a href="#">Submenu 1</a></li>
+                        <li class="submenu"><a href="#">Submenu 1</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contatta-uffio">Contatta l'ufficio vendite</a></li>
                 <li><a href="">Accedi</a></li>
-            </ul>      
-            <span class="btn-blue inline-block">Inizia</span>
-
+            </ul>  
+            <a href="">    
+                <span class="btn-blue inline-block">Inizia</span>
+            </a>
         </div>
 
     </nav>
@@ -50,7 +56,9 @@
                 <p class="txt">
                     Finalmente i tuoi strumenti, contenuti e collabolatori solo accessibili dallo stesso posto. Dropbox Bussiness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                 </p>
-                <span class="btn-blue inline-block">Inizia la tua prova gratuita</span>
+                <a href="">
+                    <span class="btn-blue inline-block">Inizia la tua prova gratuita</span>
+                </a>
                 <p class="annulla">Annulla in qualsiasi momento</p>
                 <a href="#abbonamenti">
                     <i class="fas fa-arrow-down"></i>                </a>
@@ -90,10 +98,12 @@
                         <div class="txt">3TB di spazio di archiviazione sicuro</div>
                         <div class="txt">Funzioni di produttività premium e condivisione file semplice e sicura</div>
 
-                        <div class="block btn-blue txt-center">Prova gratis per 30 giorni</div>
+                        <a href="">
+                            <span class="block btn-blue txt-center">Prova gratis per 30 giorni</span>
+                        </a>
                         <span class="block grey pad-top">
                             oppure
-                            <a href="">acquista ora</a>
+                            <a class="under-line" href="">acquista ora</a>
                         </span>
                         <div>
                             <div class="border-pic"></div>
@@ -130,11 +140,14 @@
                         <div class="txt">3TB di spazio di archiviazione sicuro</div>
                         <div class="txt">Funzioni di produttività premium e condivisione file semplice e sicura</div>
 
-                        <div class="block btn-blue txt-center">Prova gratis per 30 giorni</div>
+                        <a href="">
+                            <span class="block btn-blue txt-center">Prova gratis per 30 giorni</span>
+                        </a>
                         <span class="block grey pad-top">
                             oppure
-                            <a href="">acquista ora</a>
+                            <a class="under-line" href="">acquista ora</a>
                         </span>
+
                         <div>
                             <div class="border-pic"></div>
                         </div>
@@ -171,11 +184,15 @@
                         <div class="txt">3TB di spazio di archiviazione sicuro</div>
                         <div class="txt">Funzioni di produttività premium e condivisione file semplice e sicura</div>
 
-                        <div class="block btn-blue txt-center">Prova gratis per 30 giorni</div>
+                        <a href="">
+                            <span class="block btn-blue txt-center">Prova gratis per 30 giorni</span>
+                        </a>
                         <span class="block grey pad-top">
                             oppure
-                            <a href="">acquista ora</a>
+                            <a class="under-line" href="">acquista ora</a>
                         </span>
+
+
                         <div>
                             <div class="border-pic"></div>
                         </div>
@@ -203,14 +220,16 @@
             </div>
             <!-- FINE ABBONAMENTI TABELLE -->
             <div class="card-border clearfix">
-                <div class="title-card">Team</div>
+                <div id="contatta-uffio" class="title-card">Team</div>
 
                 <div class="main-table relative">
                     <h3>Enterprice</h3>
                     <h4>Punti salienti del piano</h4>
                     <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
                     <div class="btn-right">
-                        <div class="block btn-blue txt-center">Contatta l'ufficio vendite</div>
+                        <a href="">
+                        <span class="block btn-blue txt-center">Contatta l'ufficio vendite</span>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -233,16 +252,18 @@
                 <p class="txt">
                     Trova un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizi necessari per i tuoi obiettivi aziendali, tra cui implementazione, integrazione, geestione e supporto continui.
                 </p>
-                <div class="card-border btn-white inline-block">
-                    Trova un partner
-                </div>
+                <a href="">
+                    <span class="card-border btn-white inline-block">
+                        Trova un partner
+                    </span>
+                </a>
             </div>
         </div>
     </section>
     <!--  SEZIONE TROVA UN PARTNER-->
 
     <!--  SEZIONE 6 BLOCCHI-->
-    <section>
+    <section id="funzioni">
         
         <div class="center clearfix">
             <h2 class="pad-down">Esegui più operazioni con Dropbox Bussiness</h2>
@@ -414,9 +435,13 @@
                 Porta Dropbox Bussiness <br>
                 nella tua aziendali
             </h2>
-            <div class="fl-right btn-white margin-top">
-                Inizia la tua prrova gratuita
-            </div>
+
+            
+            <a href="">
+                <span class="fl-right btn-white margin-top">
+                    Inizia la tua prova gratuita
+                </span>
+            </a>
 
         </div>
     </section>
