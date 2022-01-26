@@ -25,8 +25,17 @@ body {
 .relative {
     position: relative;
 }
+
 .absolute {
     position: absolute;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
 }
 
 .bold {
@@ -64,10 +73,6 @@ body {
 
 .pad-top-top {
     padding-top: 4rem;
-}
-
-.fl-right {
-    float: right;
 }
 
 .margin-top {
@@ -191,8 +196,6 @@ nav {
 }
 
 nav .nav-left {
-    float: left;
-
     height: 50px;
 
     vertical-align: middle;
@@ -200,12 +203,10 @@ nav .nav-left {
 }
 
 nav .nav-right {
-    float: right;
     margin-right: 1.5em;
 }
 
 nav .logo {
-    float: left;
     margin: 0 1.5em;
 }
 
@@ -256,7 +257,6 @@ header h1 {
 }
 
 header .header-txt {
-    float: left;
     width: 35%;
 }
 
@@ -314,8 +314,6 @@ section .cards-abbonamenti {
 }
 
 section .card-abbonamenti {
-    float: left;
-
     margin: 0 1rem 1.5rem 1rem;
 
     width: calc((100% - 6rem) / 3);
@@ -360,12 +358,10 @@ section .card-abbonamenti {
 /* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
 
 section .main-60 {
-    float: left;
     width: 60%;
 }
 
 section .main-40 {
-    float: left;
     width: 40%;
 }
 
@@ -383,8 +379,6 @@ section .main-40 {
 }
 
 .block-operazioni {
-    float: left;
-
     width: calc((100% - 6rem) /3);
 
     margin: 0 1rem 2.5rem 1rem;
@@ -394,13 +388,11 @@ section .main-40 {
 /* SECTION PARTNER  *//* SECTION PARTNER  */
 
 .conteiner-partner {
-    float: left;
     width: calc(100% / 3);
     background-color: #f5f5f5;
 }
 
 .box-partner {
-    float: left;
     width: 50%;
     padding-bottom: 50%;
     color: #FFF;
@@ -426,22 +418,12 @@ img.blocks {
     transform: translate(-50%, -50%);
     
     width: 65%;
+    filter: invert(1);
 }
 
 
-svg.white {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    fill: #fff;
-    width: 65%;
-}
 .scroller {
-    height: 100%;
-    overflow-y: scroll;
-    scrollbar-width: thin;
+    overflow-y: auto;
 }
   
 
@@ -483,7 +465,6 @@ footer {
     color: #fff;
 }
 footer ul {
-    float: left;
     list-style: none;
     width: calc(100% / 5);
 }
@@ -516,7 +497,7 @@ footer .lenguage {
 
 
 
-/* MENU A TENDINA  */
+/* MENU A TENDINA  *//* MENU A TENDINA  *//* MENU A TENDINA  */
 .menu li ul {
     display: none
 }
@@ -526,9 +507,10 @@ footer .lenguage {
 display: block;
 position: absolute;
 z-index:1;
-width:150px;
+width: 200px;
 padding: 0;
 background: white;
+text-align: left;
 }
 
 ul.submenu li {
@@ -537,6 +519,9 @@ ul.submenu li {
 }
 ul.submenu li a {
     border-bottom: 0;
+    margin: 10px 0;
+    padding: 0 1rem;
+    display: block;
 }
 
 ul.submenu li a:hover {
@@ -544,13 +529,45 @@ ul.submenu li a:hover {
 }
 
 ul.submenu li.submenu:hover {
-    background-color: #bbb;
+    background-color: #d4d4d4;
+    margin: 10px 0;
 }
 
 
 ul.submenu {
     
     display: inline-block;
-    line-height: 40px;
+    line-height: 35px;
 
 }
+
+/* MENU A TENDINA  *//* MENU A TENDINA  *//* MENU A TENDINA  */
+
+/* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA */
+
+.conteiner-req i.absolute{
+    top: 20px;
+    right: 0;
+    margin: 0;
+}
+
+.conteiner-req i.fa-chevron-up,
+.conteiner-req:hover i.fa-chevron-down {
+    display: none;
+}
+
+.conteiner-req a {
+    color: #000;
+}
+
+.answer {
+    display: none;
+    margin: 1.5rem 0;
+}
+
+.conteiner-req:hover .answer,
+.conteiner-req:hover i.fa-chevron-up {
+    display: block;
+}
+
+/* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA */
