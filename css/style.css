@@ -358,11 +358,63 @@ section .main-40 {
     background-color: chocolate;
 }
 
-.conteiner-partner .partner {
+.box-partner {
     float: left;
     width: 50%;
-    background-color: cyan;
+    padding-bottom: 50%;
+    color: #FFF;
+    position: relative;
 }
-.partner img {
-    width: 100%;
+
+.innerContent {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
 }
+.conteiner-partner img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 65%;
+}
+
+svg path {
+    fill: #fff;
+} 
+
+
+
+
+/* COLORE SFONDO PARTNER  */
+.bg-partner1-border {
+    background-color: #a2d39b;;
+}
+.bg-partner1 {
+    background-color: #d0e9cd;
+}
+.bg-partner2 {
+    background-color: #61082b;
+}
+.bg-partner3 {
+    background-color: #0093ce;
+}
+.bg-partner4 {
+    background-color: #ff1c1c;
+}
+.bg-partner5 {
+    background-color: #d5001f;
+}
+.bg-partner6 {
+    background-color: #b4d0e7;
+}
+.bg-partner7 {
+    background-color: #0d2481;
+}
+.bg-partner8 {
+    background-color: #ffd830;
+}
+
