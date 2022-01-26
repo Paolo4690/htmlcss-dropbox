@@ -46,6 +46,10 @@ body {
     text-align: center;
 }
 
+.pad-tot {
+    padding: 4rem;
+}
+
 .pad-top {
     padding-top: 2rem;
 }
@@ -62,6 +66,14 @@ body {
     padding-top: 4rem;
 }
 
+.fl-right {
+    float: right;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
 .card-border {
     border: 1px solid #999;
 }
@@ -69,6 +81,10 @@ body {
 .border-pic {
     width: 20%;
     border-bottom: 1px solid #999;
+}
+
+.line-grey {
+    border-bottom: 1px solid #bbbbbb;
 }
 
 .btn-blue {
@@ -83,6 +99,7 @@ body {
     padding: 0 .6em;
     line-height: 28px;
     font-size: .9rem;
+    background-color: #fff;
 }
 
 .center {
@@ -126,6 +143,15 @@ span a:hover {
     text-decoration: underline;
 }
 
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h5.requests {
+    font-size: .8rem;
+    padding: 1.5rem 0 ;
+}
 /* CLASSI RIUTILIZZABILI *//* CLASSI RIUTILIZZABILI */
 
 /* NAV  *//* NAV  *//* NAV  *//* NAV  *//* NAV  */
@@ -199,12 +225,15 @@ nav ul a:hover {
 
 /* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
 
-header {
+.celeste {
     background-color: #b4d0e7;
-    margin-top: 50px;
     padding-bottom: 40px;
-    
 }
+
+header {
+    margin-top: 50px;
+}
+
 header h1 {
     font-size: 3.5em;
     padding-bottom: 2rem;
@@ -286,10 +315,6 @@ section .card-abbonamenti {
     padding: 1rem;
 }
 
-.main-table h3 {
-    font-size: 1.2rem;
-}
-
 .grey {
     color: #333;
     font-size: .9rem;
@@ -355,7 +380,7 @@ section .main-40 {
 .conteiner-partner {
     float: left;
     width: calc(100% / 3);
-    background-color: chocolate;
+    background-color: #f5f5f5;
 }
 
 .box-partner {
@@ -373,20 +398,36 @@ section .main-40 {
     top: 10px;
     bottom: 10px;
 }
-.conteiner-partner img {
+
+.conteiner-partner img.centrale {
+    width: 150px;
+}
+
+img.blocks {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    
     width: 65%;
 }
 
-svg path {
+
+svg.white {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     fill: #fff;
-} 
-
-
+    width: 65%;
+}
+.scroller {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+  
 
 
 /* COLORE SFONDO PARTNER  */
@@ -418,3 +459,10 @@ svg path {
     background-color: #ffd830;
 }
 
+
+/* FOOTER  */
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
