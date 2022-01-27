@@ -11,6 +11,7 @@ html {
 body {
     font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
     margin-top: 50px;
+    font-size: .9rem;
 }
 
 .clearfix::after {
@@ -208,7 +209,7 @@ nav ul.menu a {
 }
 
 nav .logo img {
-    vertical-align:middle ;
+    vertical-align:-5px ;
 }
 
 nav ul.menu {
