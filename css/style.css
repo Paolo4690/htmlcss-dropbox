@@ -58,6 +58,10 @@ body {
     padding-top: 2rem;
 }
 
+.pad-t {
+    padding-top: 1.3rem;
+}
+
 .pad-down {
     padding-bottom: 1.5rem;
 }
@@ -295,6 +299,7 @@ section .cards-abbonamenti {
 section .card-abbonamenti {
     margin: 0 1rem 1.5rem 1rem;
     width: calc((100% - 6rem) / 3);
+    height: 892px;
 }
 
 .title-card {
