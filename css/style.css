@@ -5,13 +5,12 @@
 }
 
 html {
-    
     scroll-behavior: smooth;
 }
 
 body {
     font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
-    
+    margin-top: 50px;
 }
 
 .clearfix::after {
@@ -21,7 +20,6 @@ body {
 }
 
 /* CLASSI RIUTILIZZABILI *//* CLASSI RIUTILIZZABILI */
-
 .relative {
     position: relative;
 }
@@ -142,11 +140,9 @@ section img {
 .txt {
     font-size: .9rem;
     margin-bottom: 1rem;
-
 }
 
 span {
-
     font-size: .9rem;
 }
 
@@ -167,7 +163,6 @@ span a:hover {
     text-decoration: underline;
 }
 
-
 h3 {
     font-size: 1.2rem;
 }
@@ -179,27 +174,20 @@ h5.requests {
 /* CLASSI RIUTILIZZABILI *//* CLASSI RIUTILIZZABILI */
 
 /* NAV  *//* NAV  *//* NAV  *//* NAV  *//* NAV  */
-
-
 nav {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
-
     min-width: 1065px;
     width: 100%;
     height: 53px;
-
     background-color: #fff;
-
     text-align: center;
-
 }
 
 nav .nav-left {
     height: 50px;
-
     vertical-align: middle;
     line-height: 50px;
 }
@@ -211,7 +199,6 @@ nav .nav-right {
 nav .logo {
     margin: 0 1.5em;
 }
-
 
 nav ul.menu a {
     display: inline-block;
@@ -239,18 +226,12 @@ nav ul.menu li:not(.submenu) {
 nav ul.menu a:hover {
     border-bottom: 3px solid #333;
 }
-
 /* NAV  *//* NAV  *//* NAV  *//* NAV  *//* NAV  */
 
 /* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
-
 .celeste {
     background-color: #b4d0e7;
     padding-bottom: 40px;
-}
-
-header {
-    margin-top: 50px;
 }
 
 header h1 {
@@ -282,13 +263,9 @@ header img.overflow {
 p.annulla {
     margin-top: .5em;
 }
-
-
-
 /* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
 
 /* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
-
 section .sect-check-radio {
     padding: 3em 0 2em 0;
 }
@@ -307,7 +284,6 @@ section .check-radio:last-child {
 }
 
 section .check-radio:hover {
-    
     border: 4px solid #0061ff;
 }
 
@@ -317,7 +293,6 @@ section .cards-abbonamenti {
 
 section .card-abbonamenti {
     margin: 0 1rem 1.5rem 1rem;
-
     width: calc((100% - 6rem) / 3);
 }
 
@@ -351,10 +326,9 @@ section .card-abbonamenti {
     top: 1rem;
     right: 1rem;
 }
-
-
 /* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
 
+/* SECTION IMMAGINE E TESTO *//* SECTION IMMAGINE E TESTO */
 section .main-60 {
     width: 60%;
 }
@@ -367,14 +341,15 @@ section .main-40 {
     width: 100%;
 }
 
-
 .card-abbonamenti i {
     margin-right: 5px;
 }
+
 .main-table span.fl-left {
     width: 10%;
     height: 100%;
 } 
+
 .main-table span.fl-right {
     width: 90%;
     height: 100%;
@@ -385,22 +360,18 @@ i.fa-check {
     font-size: 1rem;
     color: #0061ff;
 }
+/* SECTION IMMAGINE E TESTO *//* SECTION IMMAGINE E TESTO */
 
-/* SECTION ABBONAMENTI  *//* SECTION ABBONAMENTI  */
-
-/* SECTION OPERAZIONI  *//* SECTION OPERAZIONI  */
-
+/* SECTION 6 BLOCCHI  *//* SECTION 6 BLOCCHI  */
 .conteiner-operazioni {
     margin: 0 -1rem;
-    
 }
 
 .block-operazioni {
     width: calc((100% - 6rem) /3);
-
     margin: 0 1rem 2.5rem 1rem;
 }
-
+/* SECTION 6 BLOCCHI  *//* SECTION 6 BLOCCHI  */
 
 /* SECTION PARTNER  *//* SECTION PARTNER  */
 .bg-col-grey {
@@ -411,11 +382,9 @@ i.fa-check {
     width: 50%;
     padding-bottom: 50%;
     color: #FFF;
-    position: relative;
 }
 
 .innerContent {
-    position: absolute;
     left: 10px;
     right: 10px;
     top: 10px;
@@ -427,52 +396,38 @@ i.fa-check {
 }
 
 img.blocks {
-    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
     width: 65%;
     filter: invert(1);
 }
 
 .super-cont-partner {
-    position: relative;
-
     background-color: #F5F5F5;
-
     padding-top: 30%;
 }
 
 .conteiner-partner-sx {
-    position: absolute;
     top: 0;
     left: 0;
-
     width: 30%;
 }
 
 .conteiner-partner-sc {
-    position: absolute;
     top: 0;
     left: 30%;
-
     width: 40%;
     height: 100%;
-
     padding: 4%;
     overflow-y: auto;
 }
 
 .conteiner-partner-dx {
     width: 30%;
-    position: absolute;
     top: 0;
     right: 0;
 }
-  
-
-
 /* COLORE SFONDO PARTNER  */
 .bg-partner1-border {
     background-color: #a2d39b;;
@@ -501,14 +456,14 @@ img.blocks {
 .bg-partner8 {
     background-color: #ffd830;
 }
-
+/* SECTION PARTNER  *//* SECTION PARTNER  */
 
 /* FOOTER  *//* FOOTER  *//* FOOTER  *//* FOOTER  */
-
 footer {
     background-color: #000;
     color: #fff;
 }
+
 footer ul {
     list-style: none;
     width: calc(100% / 5);
@@ -546,29 +501,26 @@ footer select {
 }
 /* FOOTER  *//* FOOTER  *//* FOOTER  *//* FOOTER  */
 
-
-
-
 /* MENU A TENDINA  *//* MENU A TENDINA  *//* MENU A TENDINA  */
 .menu li ul {
     display: none
 }
 
-.menu li:hover ul
-{
-display: block;
-position: absolute;
-z-index:1;
-width: 200px;
-padding: 0;
-background: white;
-text-align: left;
+.menu li:hover ul {
+    display: block;
+    position: absolute;
+    top: 53px;
+    left: 0;
+    width: 200px;
+    background: white;
+    text-align: left;
 }
 
 ul.submenu li {
     display: block;
     width: 100%;
 }
+
 ul.submenu li a {
     border-bottom: 0;
     margin: 10px 0;
@@ -585,18 +537,13 @@ ul.submenu li.submenu:hover {
     margin: 10px 0;
 }
 
-
 ul.submenu {
-    
     display: inline-block;
     line-height: 35px;
-
 }
-
 /* MENU A TENDINA  *//* MENU A TENDINA  *//* MENU A TENDINA  */
 
 /* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA */
-
 .conteiner-req i.absolute{
     top: 20px;
     right: 0;
@@ -621,5 +568,4 @@ ul.submenu {
 .conteiner-req:hover i.fa-chevron-up {
     display: block;
 }
-
 /* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA *//* RISPOSTE A COMPARSA */
