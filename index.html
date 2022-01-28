@@ -10,6 +10,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+</script>
+
+
+
 </head>
 <body>
 
@@ -23,7 +38,7 @@
                 </a>
             </div>
             <ul class="menu">
-                <li><a href=#!"">Perchè Dropbox?</a></li>
+                <li><a href="#!">Perchè Dropbox?</a></li>
                 <li><a href="#funzioni">Funzioni</a></li>
                 <li class="relative"><a href="#abbonamenti">Piani e prezzi</a>
                 
@@ -54,6 +69,9 @@
         </div>
 
     </nav>
+    <!-- FINE MENU  -->
+
+
 
     <!-- HEADER  -->
     <header class="celeste">
@@ -892,6 +910,31 @@
         </div>
 
     </footer>
+
+
+        <!-- PROVA CHAT  -->
+
+        <div class="logo-chat">
+            <button class="open-button" onclick="openForm()">
+                <img src="img/chat.png" alt="Clicca per entrare in chat">
+            </button>
+            
+        </div>
+            
+        <div class="windows-chat" id="myForm">
+            <form action="#" class="form-container">
+            <div class="header-chat">Live Chat</div>
+        
+            <textarea placeholder="Scrivi qui il tuo messaggio..." name="msg" required></textarea>
+        
+            <button type="submit" class="btn">Invia richiesta</button>
+            <button type="button" class="btn chiudi" onclick="closeForm()">Chiudi</button>
+            </form>
+
+        </div>
+        
+
+    <!-- PROVA CHAT  -->
 
 </body>
 </html>
